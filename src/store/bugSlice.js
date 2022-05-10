@@ -178,7 +178,7 @@ export const resolveBug = id => apiCallBegan({
   url:url + '/' + id,
   method: 'patch',   
   data: {resolved: true},        
-  onSuccess: bugResolved.tyqpe,
+  onSuccess: bugResolved.type,
 })
 
 // notion of a command
